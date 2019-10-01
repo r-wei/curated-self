@@ -7,15 +7,11 @@ paginate_path: '/blog/page:num/'
 include: ['_pages']
 relative_permalinks: false
 
-# Variables for jekyll-feed plugin
-feed:
-  path: feed.atom
-
 # Variables for jekyll-seo-tag plugin
 social:
   name: Rebecca BurWei
   links:
-    - https://github.com/r-wei
+    - https://github.com/rebecca-burwei
     - https://www.linkedin.com/in/rebecca-burwei
 twitter:
   card: summary
@@ -32,7 +28,7 @@ plainwhite:
   date_format: "%-d %b %Y"
   sitemap: true
   social_links:
-    github:  r-wei
+    github:  rebecca-burwei
     linkedIn: in/rebecca-burwei
 
 # Custom Variables

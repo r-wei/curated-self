@@ -10,19 +10,14 @@ layout: null
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <!--  Site/Blog Indexes  -->
         <url>
-            <loc>{{ site.url }}</loc>
+            <loc>{{ "/" | absolute_url }}</loc>
             <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
             <priority>1.00</priority>
-        </url>
-        <url>
-            <loc>{{ site.url }}/blog/</loc>
-            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-            <priority>1.0</priority>
         </url>
         <!--  Posts  -->
         {%- for post in site.posts -%}
             <url>
-                <loc>{{ site.url }}{{ post.url }}</loc>
+                <loc>{{ post.url | absolute_url }}</loc>
                 <lastmod>{% if post.updated == null %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ post.updated | date: '%Y-%m-%d' }}{% endif %}</lastmod>
                 <priority>0.90</priority>
             </url>
@@ -33,7 +28,7 @@ layout: null
             {% endcomment %}{% capture url %}{{ node.url | remove_first:'/' | remove: 'index.html' | split:'/' | first }}{% endcapture %}{% comment %}
             {% endcomment %}{% if path == '_pages' and node.noindex != true and url != '' and url != 'blog' %}
                 <url>
-                    <loc>{{ site.url }}{{ node.url }}</loc>
+                    <loc>{{ node.url | absolute_url }}</loc>
                     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
                     <priority>0.8</priority>
                 </url>

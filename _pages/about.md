@@ -24,5 +24,5 @@ permalink: /about/
 </div>
 <h2 class="post-title">Mathematics</h2>
 <div class="post">
-	<p>Math is my love language. I wrote my <a href="https://github.com/r-wei/thesis/blob/master/thesis_v2.pdf">doctoral dissertation</a> advised by Boris Tsygan in non-commutative algebra.</p>
+	<p>Math is my love language. I wrote my <a href="https://github.com/rebecca-burwei/thesis/blob/master/thesis_v2.pdf">doctoral dissertation</a> advised by Boris Tsygan in non-commutative algebra.</p>
 </div>

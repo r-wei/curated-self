@@ -6,7 +6,7 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<a href="/" title="Home"><img src="{{ site.logo | relative_url }}" alt="Rebecca BurWei headshot"></a>
+			<a href="{{ "/" | relative_url }}" title="Home"><img src="{{ site.logo | relative_url }}" alt="Rebecca BurWei headshot"></a>
 			<h2>{{ site.plainwhite.name }}</h2>
 			<p class="tagline" id="tagline"></p>
 			<script type="text/javascript">
@@ -20,7 +20,7 @@
 			</script>
 			<ul class="social">
 				<a href="mailto:{{ site.email }}" title="Email me"><li><i class="icon-mail-alt" alt="Email me"></i></li></a>
-				<a href="/about/" title="About me"><li><i class="icon-info-circled" alt="About me"></i></li></a>
+				<a href="{{ "/about/" | relative_url }}" title="About me"><li><i class="icon-info-circled" alt="About me"></i></li></a>
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}" title="My GitHub page"><li><i class="icon-github-circled" alt="My GitHub page"></i></li></a>
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" title="My LinkedIn page"><li><i class="icon-linkedin-squared" alt="My LinkedIn page"></i></li></a>
 			</ul>
