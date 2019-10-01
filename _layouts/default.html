@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{%- include head.html -%}
+</head>
+<body>
+	<main class="container">
+		<section class="about">
+			<a href="/" title="Home"><img src="{{ site.logo | relative_url }}" alt="Rebecca BurWei headshot"></a>
+			<h2>{{ site.plainwhite.name }}</h2>
+			<p class="tagline" id="tagline"></p>
+			<script type="text/javascript">
+				function selectRandom() {
+					var allQuotes = arguments[0].split(".");
+					var idx = Math.floor(Math.random() * (allQuotes.length - 1));
+					var randomQuote = allQuotes[idx] + ".";
+					document.getElementById("tagline").innerHTML = randomQuote;
+				}
+				selectRandom("{{ site.quotes }}")
+			</script>
+			<ul class="social">
+				<a href="mailto:{{ site.email }}" title="Email me"><li><i class="icon-mail-alt" alt="Email me"></i></li></a>
+				<a href="/about/" title="About me"><li><i class="icon-info-circled" alt="About me"></i></li></a>
+				<a href="https://github.com/{{ site.plainwhite.social_links.github }}" title="My GitHub page"><li><i class="icon-github-circled" alt="My GitHub page"></i></li></a>
+				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" title="My LinkedIn page"><li><i class="icon-linkedin-squared" alt="My LinkedIn page"></i></li></a>
+			</ul>
+			<a href="{{ "/feed.atom" | relative_url }}">Atom Feed</a>
+		</section>
+		<section class="content">
+			{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+			<ul class="posts"><h1 id="posts-label">Site Last Updated: {{ site.time | date: date_format }}</h1></ul>
+			{{ content }}
+		</section>
+	</main>
+	{%- if site.plainwhite.analytics_id -%}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', '{{ site.plainwhite.analytics_id }}');
+	</script>
+	{%- endif -%}
+</body>
+<footer>
+	{%- include foot.html -%}
+</footer>
+</html>
