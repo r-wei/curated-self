@@ -6,6 +6,8 @@ permalink:     '/blog/:year/:title/'
 paginate_path: '/blog/page:num/'
 include: ['_pages']
 relative_permalinks: false
+google_site_verification: U5L5H1-KWT4JlqKnRvrBxv_spUS6bhPr4UKUOALiIgY
+google_gtag_id: UA-149276100-1 
 
 # Variables for jekyll-seo-tag plugin
 social:
