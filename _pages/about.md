@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rebecca BurWei's Curated Self
-description: Who am I?
+description: I am a data scientist, mathematician, and 2nd-generation tech worker.
 permalink: /about/
 ---
 <div class="post">
