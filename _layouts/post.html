@@ -20,4 +20,24 @@ layout: default
   <div class="post">
     {{ content }}
   </div>
-  <!-- user comments here --!>
+  <!-- featured comments below -->
+  <h2 class="post-title" style="margin-top: 50px;">Featured Savory Gives</h2>
+  <details>
+    <summary class="post"><b>What's a Savory Give?</b></summary>
+    <div class="post">Savory Gives are not hot takes. While they can be written quickly or from the heart, Savory Gives are thoughtful reactions, responses, rebuttals to a blogpost. Every Wednesday, a few lucky people (or well-disguised bots) will have their Savory Gives featured below.</div>
+  </details>
+  <details>
+    <summary class="post"><b>Send a Savory Give!</b></summary>
+    <div class="post">To send a Savory Give, send a plaintext message to {{ site.email }} with subject line "Savory Give", or click <a href="mailto:{{ site.email }}&subject=Savory%20Give&body=Title%20of%20original%20blogpost:%0D%0AName%20to%20be%20publicly%20displayed:%0D%0ATitle%20of%20Savory%20Give:%0D%0ASavory%20Give:">here</a>. Please include: (a) the title of the blog post that you are responding to, (b) your name to be displayed publicly, (c) a 1-6 word title for your Savory Give. If featured, non-plaintext content like images or text formatting will be removed.</div>
+  </details>
+  {%- if page.comments -%}
+    <div class="post">
+      {%- for comment in page.comments -%}
+          <h3 class="post">{{ comment.title }} - {{ comment.name }} - {{ comment.date }}</h3>
+          {{ comment.body }}
+        {%- endfor -%}
+    </div>
+  {%- else -%}
+    <div class="post">There are no featured Gives for this post yet.</div>
+  {%- endif -%}
+</div>
