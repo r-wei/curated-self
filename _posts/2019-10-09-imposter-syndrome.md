@@ -2,8 +2,8 @@
 layout:  post
 title:   How my imposter syndrome went away
 date:    2019-10-09 07:00:00 -0500
-excerpt: Three years ago, I gave a killer presentation and my imposter syndrome went away. I haven't felt it since.
-description: Three years ago, I gave a killer presentation and my imposter syndrome went away. I haven't felt it since.
+excerpt: And how my internalized sexism manifested as imposter syndrome
+description: And how my internalized sexism manifested as imposter syndrome
 ---
 Three years ago, I gave a killer presentation and my imposter syndrome went away. I haven't felt it since.
 
