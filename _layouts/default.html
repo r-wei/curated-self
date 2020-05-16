@@ -6,7 +6,7 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<a href="{{ "/" | relative_url }}" title="Home"><img src="{{ site.logo | relative_url }}" alt="Rebecca BurWei headshot"></a>
+			<a href="{{ "/" | relative_url }}" title="Thank you Danbee Kim for this portrait!"><img src="{{ site.logo | relative_url }}" alt="Thank you Danbee Kim for this portrait!"></a>
 			<h2>{{ site.plainwhite.name }}</h2>
 			<p class="tagline" id="tagline"></p>
 			<script type="text/javascript">
@@ -19,10 +19,9 @@
 				selectRandom("{{ site.quotes }}")
 			</script>
 			<ul class="social">
-				<a href="mailto:{{ site.email }}" title="Email me"><li><i class="icon-mail-alt" alt="Email me"></i></li></a>
-				<a href="{{ "/about/" | relative_url }}" title="About me"><li><i class="icon-info-circled" alt="About me"></i></li></a>
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}/curated-self" title="My GitHub page"><li><i class="icon-github-circled" alt="My GitHub page"></i></li></a>
-				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}" title="My LinkedIn page"><li><i class="icon-linkedin-squared" alt="My LinkedIn page"></i></li></a>
+				<a href="mailto:{{ site.email }}" title="Write me"><li><i class="icon-mail-alt" alt="Write me"></i></li></a>
+				<a href="{{ "/about/" | relative_url }}" title="About"><li><i class="icon-info-circled" alt="About"></i></li></a>
+				<a href="https://github.com/rebecca-burwei/roughly-cairns" title="How to build a blog like this"><li><i class="icon-github-circled" alt="How to build a blog like this"></i></li></a>
 			</ul>
 			<a href="{{ "/feed.atom" | relative_url }}">Atom Feed</a>
 		</section>
