@@ -20,7 +20,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: "Roughly Cairns"
-  date_format: "%-d %b %Y"
+  date_format: "%Y-%m-%d"
   sitemap: true
 
 # Custom Variables
