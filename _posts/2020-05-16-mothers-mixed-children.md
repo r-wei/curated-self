@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   Mothers of mixed (white + east asian) children
+title:   Mothers of mixed children
 date:    2020-05-16 07:00:00 -0500
 excerpt: How do you respond to a child who rejects your racial heritage?
 description: How do you respond to a child who rejects your racial heritage?
