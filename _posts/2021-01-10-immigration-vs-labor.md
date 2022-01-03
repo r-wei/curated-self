@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Immigration vs Labor?
+title: Immigration vs Labor
 date: 2021-01-10
 excerpt: Two sides of the same border
 description: Two sides of the same border
