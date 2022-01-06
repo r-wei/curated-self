@@ -17,7 +17,9 @@ I call these feelings 'war anxiety' -- the dread I feel when people stare at me 
 
 To document and process these feelings, I intend to blog a bit about Taiwan and China this year. This is an issue with many faces and layers. I've already muddled up some of them by hopping back and forth between "Taiwan vs China" and "US vs China". This is because my goal in writing is not to analyze, dissect or recommend solutions to the issue. Instead, I would like to provide perspective, uncover complexities, and show how we are connected in ways we had not realized.
 
-If I have learned anything from embodying this conflict for over 30 years, it is that there is no neutral position. Neutrality is an illusion like Western objectivity. You are always taking sides.
+If I have learned anything from embodying this conflict for over 30 years, it is that there is no neutral position. Neutrality is an illusion like Western objectivity. [You are always taking sides.](https://www.goodreads.com/quotes/7424-if-you-are-neutral-in-situations-of-injustice-you-have)
 
-I hope these blog posts help you better understand which sides you are on.
+I hope these blog posts help you better understand which sides[^1] you are on.
 
+# Footnotes
+[^1]: Sides, not side
